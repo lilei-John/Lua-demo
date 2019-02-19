@@ -1,0 +1,16 @@
+member {
+  name: "Toy"
+  age: 21
+  sex: "boy"
+}
+member {
+  name: "jack"
+  age: 25
+  sex: "boy"
+}
+member {
+  name: "lili"
+  age: 20
+  sex: "girl"
+}
+
