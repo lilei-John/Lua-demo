@@ -1,5 +1,4 @@
 all:
-	g++ proto-write.cc test.pb.cc -lprotobuf -o proto-write
-	g++ proto-read.cc test.pb.cc -lprotobuf -o proto-read 
+	gcc lua.c -o Clua -llua -lm -ldl -lrt
 clean:
-	rm -rf proto-write proto-read
+	rm -rf Clua
